@@ -12,4 +12,4 @@ Animal Emoji Interpreter 💻
 
   # Live Project
 
-  [LIVE URL](https://recommendation-app-neog.netlify.app/)
+  [LIVE URL](https://animal-emoji-app.netlify.app/)
