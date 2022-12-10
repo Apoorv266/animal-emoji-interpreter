@@ -2,6 +2,7 @@
 
 *{
   font-family: 'Acme', sans-serif;
+    text-align: center;
 }
 span{
   cursor: pointer;
@@ -12,7 +13,7 @@ span{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
   background-image: url("background.jpg");
 }
 
@@ -36,4 +37,30 @@ span{
 .input{
   width: 40vw;
   height: 40px;
+}
+
+@media only screen and (max-width: 425px) {
+  .app{
+   
+    border: 2px solid black;
+    min-height: 80vh;
+   width: 80%;
+   padding: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  
+  .app{
+   width: 90%;
+  }
+
+  .app h1{
+    font-size: 20px;
+  }
+
+  .emoji{
+    font-size: 20px;
+   }
 }
