@@ -1,6 +1,6 @@
  # Project Title
 
-Animal Emoji Interpreter 💻
+Animal Emoji Interpreter 
 
  # Project Description
 
